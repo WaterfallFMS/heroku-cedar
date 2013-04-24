@@ -17,7 +17,7 @@ This will produce a working heroku instance, and should not be confused with [wa
 
 ## Subdomains and XIP.io
 
-Using `localhost` or IP addresses directly as a URL prevents the use of certain DNS features like subdomains.  If you need these features then you will need to use a services that an translate IPs in to DNS.  This is where [xip.io](http://xip.io).
+Using `localhost` or IP addresses directly as a URL prevents the use of certain DNS features like subdomains.  If you need these features then you will need to use a services that an translate IPs in to DNS.  This is where [xip.io](http://xip.io) comes in.
 
 Xip.io is a special DNS server which resolves to a provided IP, but maintains subdomains.  For example:
 
@@ -26,7 +26,7 @@ Xip.io is a special DNS server which resolves to a provided IP, but maintains su
     
 ## Foreman
 
-Foreman is used by Heroku to run workers and websites in one shot from a Procfile.  However, foreman does not manage manage the environment like Heroku does so you will still need to do this manually.
+Foreman is used by Heroku to run workers and websites in one shot from a Procfile.  However, foreman does not manage the environment like Heroku does so you will still need to do this manually.
 
 ### Bash
 
