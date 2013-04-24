@@ -2,6 +2,8 @@
 
 This is a vagrant Heroku cedar stack instance that can be used to manually test an application in a heroku like environment.  It uses the precompiled version of [heroku-cedar](https://github.com/ejholmes/vagrant-heroku).
 
+This will produce a working heroku instance, and should not be confused with [waterfall-heroku-vagrant](http://github.com/WaterfallFMS/waterfall-heroku-vagrant) which would produce a Vagrant box that could be used as the box (instead of using the precompiled heroku-cedar box).
+
 # Simple Setup
 
 1. Edit the Vagrantfile and add any configs that your app might need
